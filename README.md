@@ -75,7 +75,7 @@ To build on the previous step we now need to load IIS in Windows as an administr
 <br />
 
 <p>
-<img src="https://i.imgur.com/wHkshAN.png" height="80%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/71VZBNK.png" height="80%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Once osTicket is downloaded, copy the contents of the osTicket-v1.15.8.zip file "Upload" to C: Drive --> inetpub --> wwwroot, once the file copies over rename the file from "Upload" to "osTicket". After this, you will be able to load osTicket into the browser if all steps were completed correctly up to this point...

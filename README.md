@@ -51,7 +51,7 @@ After you create the Windows VM in Azure, the first steps in order to make sure 
 <br />
 
 <p>
-<img src="https://i.imgur.com/l85pq1a.png" height="80%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KyMrPvq.png" height="80%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 These are all the necessary files needed to run osTicket properly on your Windows VM, so this step shows all the programs/files I downloaded and then installed on the computer.
@@ -59,7 +59,7 @@ These are all the necessary files needed to run osTicket properly on your Window
 <br />
 
 <p>
-<img src="https://i.imgur.com/lB20iaq.png" height="80%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/4bmFbOk.png" height="80%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 You will need to create a PHP directory within your C:Drive, once you do this extract the entire php-7.3.8-nts-Win32-VC15-x86.zip into the PHP Directory
@@ -67,7 +67,7 @@ You will need to create a PHP directory within your C:Drive, once you do this ex
 <br />
 
 <p>
-<img src="https://i.imgur.com/9Sm8n41.png" height="80%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/THa54Nz.png" height="80%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 To build on the previous step we now need to load IIS in Windows as an administrator and register PHP, after you do this it is best to either stop and start IIS or you can restart it. Either one works equally the same. 
@@ -83,7 +83,7 @@ Once osTicket is downloaded, copy the contents of the osTicket-v1.15.8.zip file 
 <br />
 
 <p>
-<img src="https://i.imgur.com/7twMPc0.png" height="80%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/xWn4QEg.png" height="80%" width="40%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 This image shows all the extensions we need to be enabled so that we can run osTicket make sure to enable (php_imap.dll, php_opcache.dll, php_intl.dll). Because they aren't once you first load up osTicket, so go back into PHP manager, and at the bottom the option to remove/add extensions will be there within IIS --> PHP Manager.
@@ -91,7 +91,7 @@ This image shows all the extensions we need to be enabled so that we can run osT
 <br />
 
 <p>
-<img src="https://i.imgur.com/f7A7gXu.png" height="80%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/RXdirxa.png" height="80%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Change the name of ost-sampleconfig.php to ost-config.php, then change the permissions so that any user has full control. This is important because the OSTicket installer is going to use this file and we don't know which user it's going to use to do that, so by getting everyone access we are able to make changes once this takes place.
@@ -99,7 +99,7 @@ Change the name of ost-sampleconfig.php to ost-config.php, then change the permi
 <br />
 
 <p>
-<img src="https://i.imgur.com/OkkwCfg.png" height="80%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PfwicXT.png" height="80%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Install HeidiSQL, once open and running add new file and import the username and password we created we downloading MYSQL, for me it was (username: root, password: Password1) once you enter those credentials HiediSQL will be synced to osTicket. Once this is complete add a new database within the database and name it osTicket.
